@@ -1,0 +1,345 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+.section{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo{
+    height: 80px;
+}
+.nav-logo img{
+    width: 200px;
+    height: 80px;
+}
+.login ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    gap: 10px;
+}
+.login ul li{
+    color: rgba(163, 19, 43, 0.025);
+    text-decoration: none;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.login ul li a{
+    text-decoration: none;
+    padding-right: 20px;
+    color: black;
+}
+.login ul li a:hover{
+    color: rgb(7, 78, 231);
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 5px;
+}
+.navigation{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+}
+.nav-list ul{
+    display: flex;
+    list-style: none;
+    margin: 10px;
+    gap: 80px;
+}
+.nav-list ul li{
+    font-weight: 700;
+    padding-top: 10px;
+    margin-top: 0;
+
+}
+.nav-list ul li a{
+    text-decoration: none;
+    color: white;
+}
+.nav-list ul li a:hover{
+    color: blue;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 6px;
+}
+.search-bar{
+    height: 80px;
+    margin-top: 30px;
+    padding: 5px 5px;
+}
+
+.search-bar input{
+    width: 400px;
+    padding: 4px;
+    margin-top: 15px;
+    border-radius: 4px;
+    border: 1px solid;
+
+}
+.search-bar button{
+    padding:4px;
+    margin-right: 40px;
+    border-radius: 4px;
+    border: 1px solid;
+    background-color: rgb(62, 135, 180);
+    color: aliceblue;
+}
+.header{
+    max-width: 100%;
+    height: 380px;
+    bottom: 0;
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    /* background-image: url(https://img.freepik.com/premium-vector/diwali-festival-sale-background-design-with-decorative-ornaments_649214-944.jpg?size=626&ext=jpg&ga=GA1.2.850581539.1664959505.jpg?size) */
+  }
+
+  .header img{
+    width: 100%;
+    background-size: cover;
+    height: 300px;
+  }
+  .header-content h3{
+    margin-top: 0%;
+  }
+  
+  .header-content marquee{
+    color: rgb(255, 0, 119);
+    width: 100%;
+    height: 60px;
+    font-weight: medium;
+    padding-top: 4px;
+   }
+
+  .section-1{
+    width: 100%;
+    height: 500px;
+}
+  .menswear{
+    width: 100%;
+    height: 400px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+  h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 45px;
+    color: rgb(224, 70, 22);
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 2px 2px cornsilk;
+    background-color: black;
+}
+  .mens-img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    
+    }
+
+   .mens-img img{
+    width: 70%;
+    margin-left: 30px;
+    /* align-content: center; */
+    margin-top: 25px;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px black;
+    
+   }
+   .content h4{
+    /* margin: 15px; */
+    /* text-align: center; */
+    margin-top: 0px;
+    color: rgb(18, 18, 19);
+    margin-top: 20px;
+    font-weight: 600;
+    align-items: center;
+    padding-left: 10px;
+    margin-left: 20px;
+   
+ }
+    .content p{
+    
+    margin-left: 30px;
+    margin-top: 10px;
+    padding-left: 4px;
+}
+/* .section-2 */
+.section-2{
+    width: 100%;
+    height: 500px;
+}
+.womenswear{
+    width: 100%;
+    height: 350px;
+    margin-top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgb(224, 70, 22);
+    font-family: cursive;
+    text-shadow: 2px 2px cornsilk;
+}
+.womens-img{
+    width: 100%;
+    height: 300px;
+}
+.womens-img img{
+    width: 70%;
+    margin-left: 30px;
+    align-content: center;
+    margin-top: 25px;
+    padding: 30px;
+    box-shadow: 1px 1px 1px 1px black;
+}
+.content-2{
+    
+    display: inline-block;
+  }
+.content-2 h4{
+    margin-left: 20px;
+    /* text-align: center; */
+    /* width: 180px; */
+    height: 50px;
+  
+    color: rgb(18, 18, 19);
+    margin-top: 10px;
+    padding-left: 10px;
+   
+ }
+    .content-2 p{
+       
+        margin-top: 0px;
+        margin-left: 40px;
+       }
+.section-3{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content-3{
+    width: 100%;
+}
+h3{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 40px;
+}
+.section-4{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}.content-4{
+    width: 100%;
+    height: 400px;
+}
+.heading h1{
+    text-align: center;
+    font-family: cursive;
+    color: red;
+    font-weight: 400;
+}
+.section-4 img{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+
+}
+.section-4 img img{
+    height: 300px;
+
+}
+
+
+.icons{
+    margin-top: 20px;
+    text-align: center;
+}
+.icons a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+.insta {
+    color: #dd2a7b;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+}
+.link{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 10px;
+}
+.git{
+    font-weight: bold;
+    font-size: 50px;
+    margin: 6px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    
+}
+.app-dnld{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+ .app-dnld a img{
+    width: 200px;
+    height: 100px;
+    padding: 10px;
+ }
+ 
+  
+
+
+
+
+
+ 
+
+    
+  
+
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+    
